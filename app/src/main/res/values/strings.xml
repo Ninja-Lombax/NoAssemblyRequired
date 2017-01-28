@@ -1,0 +1,28 @@
+<resources>
+    <string name="app_name">No Assembly Required</string>
+    <string name="dresser">IKEA Dresser</string>
+    <string name="Bike">Bicycle</string>
+    <string name="tools">Tools Needed</string>
+    <string name="patio">Wood Patio</string>
+    <string name="screwdriver">Screw Driver</string>
+    <string name="hammer">Rubber Mallet</string>
+    <string name="electScrewdriver">Electric Screwdriver with bits</string>
+    <string name="grease">Grease</string>
+    <string name="tirepump">Tire Pump</string>
+    <string name="cable_cutter">Cable Cutter</string>
+    <string name="wrench">Wrench</string>
+    <string name="tape_measure">Tape Measure</string>
+    <string name="miter_saw">Miter Saw</string>
+    <string name="wood_planer">Wood Planer</string>
+    <string name="jigsaw">Jigsaw</string>
+    <string name="paint_roller">Paint Roller</string>
+    <string name="assemble">What are you assembling today?</string>
+    <string name="return_home">Return Home</string>
+    <string name="easy_open">How to open an Easy Open Container</string>
+    <string name="scissors">scissors</string>
+    <string name="knife">knife</string>
+    <string name="normal_hammer">hammer</string>
+    <string name="gun">gun</string>
+    <string name="lightsaber">lightsaber</string>
+    <string name="add_help">Additional Help</string>
+</resources>

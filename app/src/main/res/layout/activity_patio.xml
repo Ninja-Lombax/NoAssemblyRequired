@@ -1,0 +1,120 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/activity_patio"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:paddingBottom="@dimen/activity_vertical_margin"
+    android:paddingLeft="@dimen/activity_horizontal_margin"
+    android:paddingRight="@dimen/activity_horizontal_margin"
+    android:paddingTop="@dimen/activity_vertical_margin"
+    tools:context="net.androidbootcamp.noassembyrequired.Patio">
+
+    <Button
+        android:text="@string/return_home"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:layout_centerHorizontal="true"
+        android:id="@+id/btnHome3" />
+
+    <TextView
+        android:text="@string/patio"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="14dp"
+        android:id="@+id/txtWoodPatio"
+        android:textSize="30sp"
+        android:layout_below="@+id/imgPatio"
+        android:layout_centerHorizontal="true" />
+
+    <TextView
+        android:text="@string/tools"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="12dp"
+        android:id="@+id/txtTools1"
+        android:textSize="24sp"
+        android:layout_below="@+id/txtWoodPatio"
+        android:layout_alignRight="@+id/txtWoodPatio"
+        android:layout_alignEnd="@+id/txtWoodPatio" />
+
+    <TextView
+        android:text="@string/wood_planer"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/textView18"
+        android:layout_alignBaseline="@+id/txtCable"
+        android:layout_alignBottom="@+id/txtCable"
+        android:layout_alignLeft="@+id/textView14"
+        android:layout_alignStart="@+id/textView14" />
+
+    <TextView
+        android:text="@string/screwdriver"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/textView14"
+        android:layout_alignBaseline="@+id/txtSaw"
+        android:layout_alignBottom="@+id/txtSaw"
+        android:layout_toRightOf="@+id/txtTools1"
+        android:layout_toEndOf="@+id/txtTools1" />
+
+    <TextView
+        android:text="@string/jigsaw"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignTop="@+id/textView20"
+        android:layout_alignLeft="@+id/textView18"
+        android:layout_alignStart="@+id/textView18"
+        android:id="@+id/textView22" />
+
+    <TextView
+        android:text="@string/paint_roller"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/textView16"
+        android:layout_below="@+id/textView20"
+        android:layout_alignLeft="@+id/textView20"
+        android:layout_alignStart="@+id/textView20"
+        android:layout_marginTop="14dp" />
+
+    <TextView
+        android:text="@string/miter_saw"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="14dp"
+        android:id="@+id/txtSaw"
+        android:layout_below="@+id/txtTools1"
+        android:layout_toLeftOf="@+id/txtWoodPatio"
+        android:layout_toStartOf="@+id/txtWoodPatio" />
+
+    <TextView
+        android:text="@string/cable_cutter"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/txtCable"
+        android:layout_marginTop="13dp"
+        android:layout_below="@+id/txtSaw"
+        android:layout_alignLeft="@+id/txtSaw"
+        android:layout_alignStart="@+id/txtSaw" />
+
+    <TextView
+        android:text="@string/tape_measure"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/textView20"
+        android:layout_marginTop="12dp"
+        android:layout_below="@+id/txtCable"
+        android:layout_alignLeft="@+id/txtCable"
+        android:layout_alignStart="@+id/txtCable" />
+
+    <ImageView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        app:srcCompat="@drawable/patio"
+        android:id="@+id/imgPatio"
+        android:layout_alignParentTop="true"
+        android:layout_centerHorizontal="true" />
+
+</RelativeLayout>
